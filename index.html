@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Guest list</title>
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet" href = "style.css">
+<script src = "main.js">
+</script>
+<link rel = "icon" href = "download (13).png" type="image">
+</head>
+<body class = "bg-warning">
+
+<center>
+
+<div class = "page header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<h1 class = "text-success text-capitalize" style = "font-family: Verdana, Geneva, Tahoma, sans-serif;">Welcome to the Guest list webpage</h1>
+</div>
+
+<h1 class = "text-capitalize text-primary" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Guest list</h1>
+
+
+<input id = "input_name" type = "text" placeholder="Enter your guest name here" style = "width: 200px; height: 35px; background-color: skyblue;">
+
+&nbsp;
+&nbsp;
+
+<button id = "submit_button" class = "bt btn-primary" style = "border-radius: 20px; border-color: blue; width : 100px; height: 40px; border-width: 5px;" onclick="submit_value();">Submit</button>
+
+</center>
+
+<hr>
+
+<center>
+
+<div class = "page-header">
+<h3 class = "text-capitalize text-primary">Your guest names are here</h3>
+</div>
+
+<div class = "text-info" id = "show_guest_names"></div>
+
+<hr>
+
+<div class = "page-header">
+<h3 class = "text-capitalize text-primary">Your guest list is here</h3>
+<p>Click on show to see the list</p>
+</div>
+
+<button id = "show_button" class= "btn btn-primary" onclick="show_values_list();">Show</button>
+
+<div class = "text-info" id = "show_guest_list"></div>
+
+</center>
+
+<hr>
+
+<center>
+<div class = "page-header">
+<h3 class = "text-capitalize text-primary">Your guest sorted names are here and list is below</h3>
+</div>
+<p>Click on the sort names button to view the names</p>
+<button id = "sort_name_button" class = "btn btn-primary" onclick="name_sorting();">Sort Names</button>
+<div class = "text-info" id = "sorted_guest_names"></div>
+</center>
+
+<hr>
+
+<center>
+<div class = "page-header">
+<h3 class = "text-capitalize text-primary">Your guest sorted list</h3>
+<p>Click on the sort button to see your guests' sorted list</p>
+</div>
+
+<button id = "sort_button" class = "btn btn-primary" onclick="sorting();">Sort</button>
+
+<div class = "text-info" id = "show_sorted_guest_names"></div>
+
+</center>
+
+<hr>
+
+<center>
+<div class = "page-header">
+<h3 class= "text-capitalize text-primary">You can search your guest names here</h3>
+<p>Write the name of your guest in the text input and then click search button to search your guest names</p>
+</div>
+<input type = "text" placeholder="Write your guest name here" id = "search_input">
+
+&nbsp;
+&nbsp;
+
+<button class = "btn btn-primary" id = "search_button" onclick="searching();">Search</button>
+
+<div class = "text-info" id = "show_searched_names"></div>
+</center>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+hr {
+border-width: 7px;
+border-color:black;
+height: 25px;
+}
+#show_button , #sort_button , #sort_name_button,#search_button{
+width:100px;
+height:40px;
+border-radius: 25px;
+border-color:blue;
+border-width:5px;
+}
+#input_name {
+padding-right: -1cm;
+margin-top: 35px;
+margin-bottom: 35px;
+}
+#submit_button {
+margin-top: 35px;
+margin-bottom: 35px;
+}
+.text-info {
+font-size: 25px;
+}
+#search_input {
+width: 200px;
+height: 30px;
+padding-right: -1cm;
+margin-top: 35px;
+margin-bottom: 35px;
+background-color: skyblue;
+}
